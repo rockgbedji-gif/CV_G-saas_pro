@@ -24,6 +24,21 @@
     background-color: #0A0A14;
     min-height: 100vh;
     overflow-x: hidden;
+    text-align: justify;
+    hyphens: auto;
+  }
+
+  p, li, span, div, section, article {
+    text-align: justify;
+    hyphens: auto;
+  }
+
+  /* Headings & labels: keep left-aligned for aesthetics */
+  h1, h2, h3, h4, h5, h6,
+  button, a, label, input, textarea, select,
+  nav, header, footer {
+    text-align: left;
+    hyphens: none;
   }
 }
 
